@@ -1,3 +1,4 @@
+@Paralel1
 Feature: US1003 kullanici istedigi kelime icin arama yapip sonucu test eder
   @rapor2
   Scenario: TC07 istenen kelimem oldugunu test etme

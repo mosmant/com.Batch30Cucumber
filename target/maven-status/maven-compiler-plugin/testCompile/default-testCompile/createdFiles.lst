@@ -1,0 +1,13 @@
+stepdefinitions\EditorStepDefinition.class
+stepdefinitions\amazonStepDefinitions.class
+pages\EditorPage.class
+pages\CHQAPage.class
+stepdefinitions\CHQAStepDefinitions.class
+pages\AmazonPage.class
+stepdefinitions\Hooks.class
+runners\ParalelTestRunner1.class
+runners\Runner.class
+utilities\Driver.class
+utilities\JSUtils.class
+utilities\ConfigReader.class
+runners\ParalelTestRunner2.class
