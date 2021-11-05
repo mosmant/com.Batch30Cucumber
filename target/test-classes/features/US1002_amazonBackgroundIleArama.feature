@@ -1,4 +1,4 @@
-@background
+@rapor1
 Feature: US1002 amazon background ile arama
 
   Background: amazon sayfasina gitme
@@ -9,7 +9,7 @@ Feature: US1002 amazon background ile arama
     And nutella icin arama yapar
     Then sonucun nutella icerdigini test eder
     And sayfayi kapatir
-
+    #wip work in progress
     @wip
   Scenario: TC05 amazon java arama
     And java icin arama yapar

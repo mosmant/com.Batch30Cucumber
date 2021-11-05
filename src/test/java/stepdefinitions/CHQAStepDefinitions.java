@@ -38,5 +38,8 @@ public class CHQAStepDefinitions {
     }
 
 
+    @Then("CH basarili girid yspildigini test eder.")
+    public void chBasariliGiridYspildiginiTestEder() {
 
+    }
 }

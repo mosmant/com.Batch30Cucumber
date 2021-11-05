@@ -10,7 +10,7 @@ public class CHQAPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath="//input[@value='Log in']")
+    @FindBy(linkText = "Log in")
     public WebElement loginLinki;
 
     @FindBy(xpath="//input[@name='UserName']")
