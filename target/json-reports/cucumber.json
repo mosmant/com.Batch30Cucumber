@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-17T21:22:35.331Z",
+        "line": 3,
+        "name": "TC18 Concort Hotel Database Read Test",
+        "description": "",
+        "id": "us1012-kulklanici-concort-hotel-database-ini-test-eder;tc18-concort-hotel-database-read-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1875014900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici CHQA database\u0027ine baglanir",
+            "match": {
+              "location": "dbStepDefinitions.DbStepDefinition.kullanici_chqa_database_ine_baglanir()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 531313400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici \"tHOTELROOM\" tablosundaki \"Price\" verilerini alir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tHOTELROOM\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Price\"",
+                  "offset": 36
+                }
+              ],
+              "location": "dbStepDefinitions.DbStepDefinition.kullanici_tablosundaki_verilerini_alir(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1075049700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"Price\" sutunundaki verileri okur ve istedigi islemleri yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 10
+                }
+              ],
+              "location": "dbStepDefinitions.DbStepDefinition.kullanici_sutunundaki_verileri_alir(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      }
+    ],
+    "name": "US1012 Kulklanici concort Hotel database\u0027ini test eder",
+    "description": "",
+    "id": "us1012-kulklanici-concort-hotel-database-ini-test-eder",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US_1012_DbRead.feature",
+    "tags": []
+  }
+]
