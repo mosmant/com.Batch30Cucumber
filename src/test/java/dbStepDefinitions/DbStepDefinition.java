@@ -3,6 +3,7 @@ package dbStepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+import utilities.DBUtils;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -112,6 +113,7 @@ public class DbStepDefinition {
         Assert.assertTrue(seventhNumber==620);
 
     }
+
 
 
 
